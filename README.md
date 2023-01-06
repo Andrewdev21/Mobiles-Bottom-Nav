@@ -1,2 +1,2 @@
 # Navbar-Bottom
-Navbar Bottom Mobile only 600px max  width
+Navbar Fixed Bottom Mobile only 600px max  width

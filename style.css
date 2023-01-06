@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+
+
+
+/*navbar mobile*/
+
+.nav-mobile {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-mobile nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.nav-mobile nav a {
+    padding: 20px;
+    transition: 0.9s;
+    
+}
+
+.nav-mobile nav a:hover {
+    
+   box-shadow: 0 0.5em 1em rgba(0,0,0,0.3);
+}
+
+
+
+
+
+.nav-mobile ion-icon {
+    font-size: 40px;
+}
+
+
+
+/*navbar mobile END*/
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: rgb(2,4,20);
+background: linear-gradient(90deg, rgba(2,4,20,1) 0%, rgba(9,13,69,1) 100%);
+}

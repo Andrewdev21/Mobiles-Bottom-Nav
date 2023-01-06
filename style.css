@@ -11,6 +11,8 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
 }
 
 
@@ -18,7 +20,8 @@ p {
 
 /*navbar mobile*/
 
-.nav-mobile {
+@media (max-width: 600px) {
+  .nav-mobile {
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -52,6 +55,21 @@ p {
     font-size: 40px;
 }
 
+  
+}
+
+@media (min-width: 601px) {
+    .nav-mobile {
+         display: none;
+} 
+    }
+  
+
+
+    
+
+
+
 
 
 /*navbar mobile END*/
@@ -63,6 +81,7 @@ p {
     align-items: center;
     justify-content: center;
     height: 90vh;
+    padding: 40px;
     background: rgb(2,4,20);
 background: linear-gradient(90deg, rgba(2,4,20,1) 0%, rgba(9,13,69,1) 100%);
 }

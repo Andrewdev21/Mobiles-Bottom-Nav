@@ -33,7 +33,7 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 5vh;
 }
 
 .nav-mobile nav a {
@@ -52,7 +52,7 @@ p {
 
 
 .nav-mobile ion-icon {
-    font-size: 40px;
+    font-size: 30px;
 }
 
   
@@ -62,14 +62,9 @@ p {
     .nav-mobile {
          display: none;
 } 
+
     }
   
-
-
-    
-
-
-
 
 
 /*navbar mobile END*/
@@ -80,7 +75,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 95vh;
     padding: 40px;
     background: rgb(2,4,20);
 background: linear-gradient(90deg, rgba(2,4,20,1) 0%, rgba(9,13,69,1) 100%);

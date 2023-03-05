@@ -10,28 +10,49 @@
 </head>
 <body>
 
-    <section>
+    <section id="home">
         <div class="container">
-            <h1>Navbar Fixed Bottom</h1>
-            <p>A simple navbar fixed in bottom for only 600px max width screens</p>
+            <h1>Navbar in bottom for mobiles</h1>
+            <p>A simple navbar fixed in bottom for only 720px max width screens</p>
+        </div>
+    </section>
+
+    <main>
+        <div class="container container__1">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus officiis error similique vero nostrum necessitatibus eveniet, maxime magni temporibus explicabo alias ipsum voluptates iusto magnam quas aliquid labore, sunt exercitationem! Ipsa temporibus natus sed libero corporis ut. Quis eos totam dignissimos quaerat iste nobis ipsum. Repudiandae fugiat quod temporibus reprehenderit?</p>
+        </div>
+    </main>
+
+    <section>
+        <div class="container container__1">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus officiis error similique vero nostrum necessitatibus eveniet, maxime magni temporibus explicabo alias ipsum voluptates iusto magnam quas aliquid labore, sunt exercitationem! Ipsa temporibus natus sed libero corporis ut. Quis eos totam dignissimos quaerat iste nobis ipsum. Repudiandae fugiat quod temporibus reprehenderit?</p>
         </div>
     </section>
 
     <div class="nav-mobile">
+        <div class="nav-expanded">
+            <ul class="nav-expanded-list">
+                <li class="nav-expanded-item"><a  href="#home">Home</a></li>
+                <li class="nav-expanded-item"><a  href="#features">Features</a></li>
+                <li class="nav-expanded-item"><a  href="#about">About</a></li>
+                <li class="nav-expanded-item"><a  href="#contact">Contact</a></li>
+                <li class="nav-expanded-item"><a  href="#services">Services</a></li>
+            </ul>
+        </div>
         <nav>
-            <a  href=""><ion-icon name="home-outline"></ion-icon></a>
-            <a  href=""><ion-icon name="logo-reddit"></ion-icon></a>
-            <a  href=""><ion-icon name="logo-youtube"></ion-icon></a>
-            <a  href=""><ion-icon name="chatbubbles-outline"></ion-icon></a>
+            <a href="#home"><img class="nav-buttons" src="/assets/home-home-svgrepo-com.svg"></a>
+            <a href=""><img class="nav-buttons" src="/assets/github-repo-git-octocat-svgrepo-com.svg"></a>
+            <button class="nav-expanded-button"><img class="nav-buttons" src="/assets/hamburger-menu-svgrepo-com.svg"></button>
         </nav>
+      
     </div>
 
 
 
 
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="/main.js"></script>
     
 </body>
 </html>

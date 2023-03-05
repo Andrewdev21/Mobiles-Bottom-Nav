@@ -1,6 +1,9 @@
-* {
+
+body {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -16,49 +19,70 @@ p {
 }
 
 
-
-
 /*navbar mobile*/
 
-@media (max-width: 600px) {
-  .nav-mobile {
-    position: fixed;
-    bottom: 0px;
+.nav-mobile {
+    position: fixed;;
+    bottom: 0;
     width: 100%;
-    background-color: rgb(255, 255, 255);
 }
 
-.nav-mobile nav {
+.nav-mobile > nav {
+    height: 7vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 8vh;
+    background-color: #202020;
 }
 
-.nav-mobile nav a {
-    padding: 20px;
-    transition: 0.9s;
+.nav-mobile > nav > * {
+    margin: 25px;
+    padding: 15px;
+    border-style: none;
+    background-color: transparent;
     
 }
 
-.nav-mobile nav a:hover {
-    
-   box-shadow: 0 0.5em 1em rgba(0,0,0,0.3);
+.nav-buttons {
+    height: 40px;
+}
+
+/*navbar mobile*/
+
+
+.nav-expanded {
+    position: absolute;
+    bottom: 55px;
+    right: 0;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    border-radius: 2px 0 0 0;
+    display: none;
+}
+
+
+.nav-expanded > .nav-expanded-list {
+    padding: 25px;
+    line-height: 45px;
+    list-style: none;
+}
+
+.nav-expanded >.nav-expanded-list > .nav-expanded-item > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fdfdfd;
+    font-size: 25px;
+    text-decoration: none;
 }
 
 
 
-
-
-.nav-mobile ion-icon {
-    font-size: 35px;
-}
-
-  
-}
-
-@media (min-width: 601px) {
+@media (min-width: 720px) {
     .nav-mobile {
          display: none;
 } 
@@ -75,8 +99,10 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 92vh;
-    padding: 40px;
-    background: rgb(2,4,20);
-background: linear-gradient(90deg, rgba(2,4,20,1) 0%, rgba(9,13,69,1) 100%);
+    height: 93vh;
+    padding: 20px;
+    text-align: center;
+    background: rgb(33,0,36);
+
 }
+
